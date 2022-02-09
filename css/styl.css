@@ -1,0 +1,57 @@
+
+@import "null.css";
+
+*{
+	color: blue;
+}
+.content__top-title h1{
+	color: rgb(218, 131, 148);
+}
+
+ol a{
+	color: brown;
+}
+
+h2{
+	color: greenyellow;
+}
+.level1 ~ p{
+	color: green;
+}
+.level2 ~ p{
+	color: rgb(233, 18, 168);
+}
+.level3 ~ p{
+	color: rgb(77, 6, 83);
+}
+p span{
+	color: black;
+} 
+
+.level2-1 ~ p{
+	color: green;
+}
+.level2-2 ~ p{
+	color: rgb(233, 18, 168);
+}
+.level2-3~ p{
+	color: rgb(77, 6, 83);
+}
+
+.level3-1 ~ p{
+	color: green;
+}
+.level3-2 ~ p{
+	color: rgb(233, 18, 168);
+}
+
+.content__center-text-text4 p{
+	color: darkgrey;
+}
+
+.link{
+	color: lightcoral;
+}
+.link + a{
+	color: aqua;	
+}
